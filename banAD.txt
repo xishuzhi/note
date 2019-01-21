@@ -440,7 +440,7 @@
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 
 # Miui 小米
-(^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
+(^|\.)(ad|ad1|xmpush)\.xiaomi\.com$
 (^|\.)(a|wtradv)\.market\.xiaomi\.com$
 (^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
 (^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
