@@ -694,12 +694,13 @@
 (^|\.)t-l\.play\.aiseet\.atianqi\.com$
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
-(^|\.)vmindhls\.tc\.qq\.com$
-(^|\.)vlive\.tc\.qq\.com$
-(^|\.)variety\.tc\.qq\.com$
-(^|\.)vmindhls\.tc\.qq\.com$
-(^|\.)qqvideo\.tc\.qq\.com$
+#(^|\.)vmindhls\.tc\.qq\.com$
+#(^|\.)vlive\.tc\.qq\.com$
+#(^|\.)variety\.tc\.qq\.com$
+#(^|\.)vmindhls\.tc\.qq\.com$
+#(^|\.)qqvideo\.tc\.qq\.com$
 #(^|\.)(variety|varietyts|vmindhls|vlive|qqvideo)\.tc\.qq\.com$
+(variety|varietyts|vmindhls|vlive|qqvideo)\.tc\.qq\.com
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
