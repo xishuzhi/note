@@ -695,7 +695,6 @@
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
 (^|\.)(variety|varietyts|vmindhls|vlive|qqvideo)\.tc\.qq\.com$
-variety.tc.qq.com
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
