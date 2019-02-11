@@ -694,7 +694,7 @@
 (^|\.)t-l\.play\.aiseet\.atianqi\.com$
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
-(^|\.)(vmindhls|vlive)\.tc\.qq\.com$
+(^|\.)(variety|varietyts|vmindhls|vlive)\.tc\.qq\.com$
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
