@@ -22,7 +22,6 @@
 #**********************************************************************
 [outbound_block_list]
 # 禁止访问列表
-(^|\.)tc\.qq\.com.*guid=.*$
 (^|\.)gtimg\.cn$
 (^|\.)moonreader\.cn/downloader/ver\.txt$
 #(^|\.)\w*ad\.xiaomi\w*\..*$
@@ -696,6 +695,7 @@
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
 (^|\.)vmindhls\.tc\.qq\.com$
+(^|\.)vlive\.tc\.qq\.com$
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
