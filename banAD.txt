@@ -471,6 +471,18 @@
 (^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
+(^|\.)(adslvfile|adsfile|play|pinghot)\.qq\.com$
+(^|\.)tj\.video\.qq\.com$
+(^|\.)vv\.video\.qq\.com$
+(^|\.)livep\.l\.qq\.com$
+(^|\.)livem\.l\.qq\.com$
+(^|\.)rcgi\.video\.qq\.com$
+(^|\.)aid\.video\.qq\.com$
+(^|\.)vhotlxp\.video\.qq\.com$
+(^|\.)qqbm\.zhuiying\.net$
+(^|\.)qqbmad\.mycode8\.net$
+
+
 
 # RenRen
 (^|\.)jebe\.renren\.com$
