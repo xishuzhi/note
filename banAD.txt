@@ -1538,6 +1538,7 @@
 [proxy_list]
 (^|\.).sankakucomplex\.com
 (^|\.)bbbb222.*$
+(^|\.)aaaa333.*$
 (^|\.)1024x2.*$
 # MyList
 (^|\.)apkmirror\.com$
