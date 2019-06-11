@@ -1,8 +1,8 @@
 #**********************************************************************
 # 12.23
-# 2018年12月23日22:35:08
+# 2019年6月11日08:35:46
 # 转载需要注明版权和来源
-# 
+#
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
 # 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
@@ -55,6 +55,8 @@
 (^|\.|/)jpush.*$
 #阿里云未知
 (^|\.|/)gds\.alibabadns.*$
+#今日头条
+(^|\.|/)*\.snssdk.*$
 
 # 广告关键词
 (^|\.)\w*admarvel\w*\.\w*$
@@ -440,7 +442,7 @@
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 
 # Miui 小米
-(^|\.)(ad|ad1|xmpush)\.xiaomi\.com$
+(^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
 (^|\.)(a|wtradv)\.market\.xiaomi\.com$
 (^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
 (^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
@@ -663,17 +665,10 @@
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
 (^|\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\.hd\.sohu\.com$
-(^|\.)(ads|adnet|aty|epro|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
+(^|\.)(ads|adnet|aty|epro|go|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
+(^|\.)(epro|golden1|inte|uranus|pv)\.sogou\.com$
 (^|\.)(inte|lu|theta)\.sogoucdn\.com$
-(^|\.)api\.k\.sohu\.com$
-(^|\.)count\.vrs\.sohu\.com$
-(^|\.)data\.vod\.itc\.cn$
-(^|\.)go\.sohu\.com$
-(^|\.)goto\.sms\.sohu\.com$
-(^|\.)imp\.optaim\.com$
-(^|\.)pv\.ott\.hd\.sohu\.com$
-(^|\.)score\.my\.tv\.sohu\.com$
-(^|\.)zz\.m\.sohu\.com$
+
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
@@ -764,7 +759,6 @@
 (^|\.)c\.algovid\.com$
 (^|\.)cc\.xtgreat\.com$
 (^|\.)d\.dsp\.imageter\.com$
-(^|\.)dotcounter\.douyutv\.com$
 (^|\.)gg\.jtertp\.com$
 (^|\.)gridsum-vd\.cntv\.cn$
 (^|\.)kwflvcdn\.000dn\.com$
@@ -839,7 +833,6 @@
 (^|\.)ssp\.kssws\.ks-cdn\.com$
 (^|\.)stats\.chinaz\.com$
 (^|\.)stats\.developingperspective\.com$
-(^|\.)stats\.jpush\.cn$
 (^|\.)tjlog\.easou\.com$
 (^|\.)tjlog\.ps\.easou\.com$
 (^|\.)track\.hujiang\.com$
@@ -925,7 +918,7 @@
 (^|\.)allyes\.com$
 (^|\.)amazon-adsystem\.com$
 (^|\.)amplitude\.com$
-(^|\.)analysys\.cn$
+(^|\.)analysys\.cn
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
 (^|\.)anysdk\.com$
@@ -2968,6 +2961,8 @@
 (^|\.)emuparadise\.me$
 (^|\.)en\.favotter\.net$
 (^|\.)en\.hao123\.com$
+(^|\.)en\.m\.wikipedia\.org$
+(^|\.)en\.wikipedia\.org$
 (^|\.)enanyang\.my$
 (^|\.)enewstree\.com$
 (^|\.)enfal\.de$
@@ -6832,6 +6827,7 @@
 (^|\.)wuw\.red$
 (^|\.)wuyanblog\.com$
 (^|\.)wwitv\.com$
+(^|\.)www\.wikipedia\.org$
 (^|\.)www\.abclite\.net$
 (^|\.)www\.ajsands\.com$
 (^|\.)www\.americorps\.gov$
