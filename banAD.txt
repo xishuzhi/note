@@ -55,8 +55,11 @@
 (^|\.|/)jpush.*$
 #阿里云未知
 (^|\.|/)gds\.alibabadns.*$
-#今日头条
+#未知
 (^|\.|/)*\.snssdk.*$
+(^|\.|/)*\.kunluncan.*$
+(^|\.|/)*\.alikunlun.*$
+(^|\.|/)*\.moonreader.*$
 
 # 广告关键词
 (^|\.)\w*admarvel\w*\.\w*$
