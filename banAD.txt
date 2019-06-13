@@ -59,7 +59,9 @@
 (^|\.|/)*\.snssdk.*$
 (^|\.|/)*\.kunluncan.*$
 (^|\.|/)*\.alikunlun.*$
-(^|\.|/)*\.moonreader.*$
+(^|\.|/)*\.moonreader.*ver.*$
+#深圳墨鱼传媒
+(^|\.|/)*\.moyumedia.*$
 
 # 广告关键词
 (^|\.)\w*admarvel\w*\.\w*$
@@ -412,6 +414,7 @@
 (^|\.)ads\.union\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
+(^|\.|/)ccc-x\.jd\.com$
 
 # Kugou
 (^|\.)(bssdl|bssdlbig|d|downmobile|fanxing|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
