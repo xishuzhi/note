@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.23
-# 2019年6月11日08:35:46
+# 06.14
+# 2019年6月11日09:24:06
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -414,7 +414,7 @@
 (^|\.)ads\.union\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
-(^|\.|/)ccc-x\.jd\.com$
+(^|\.|/)ccc-x\.jd\.com
 
 # Kugou
 (^|\.)(bssdl|bssdlbig|d|downmobile|fanxing|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
@@ -489,8 +489,6 @@
 (^|\.)vhotlxp\.video\.qq\.com$
 (^|\.)qqbm\.zhuiying\.net$
 (^|\.)qqbmad\.mycode8\.net$
-
-
 
 # RenRen
 (^|\.)jebe\.renren\.com$
@@ -674,7 +672,6 @@
 (^|\.)(ads|adnet|aty|epro|go|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
 (^|\.)(epro|golden1|inte|uranus|pv)\.sogou\.com$
 (^|\.)(inte|lu|theta)\.sogoucdn\.com$
-
 
 # PPTV、PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
@@ -1350,6 +1347,7 @@
 (^|\.)coinhive\.com$
 (^|\.)huodonghezi\.cn$
 (^|\.)wanfeng1\.com$
+(^|\.)wep016\.top
 (^|\.)win-stock\.com\.cn$
 (^|\.)zantainet\.com$
 
@@ -1527,11 +1525,6 @@
 222.186.61.97/32
 222.187.226.96/32
 223.6.255.99/32
-# 腾讯视频广告
-#111.202.98.149/32
-#111.202.85.143/32
-#111.202.98.160/43
-#111.202.85.144/32
 
 #**********************************************************************
 [proxy_list]
