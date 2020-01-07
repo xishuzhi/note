@@ -1540,6 +1540,7 @@
 (^|\.)bbbb222.*$
 (^|\.)aaaa333.*$
 (^|\.)1024x2.*$
+(^|\.)a2zapk\.com$
 # MyList
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
