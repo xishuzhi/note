@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2019年12月12日12:03:00
+# 2020年01月07日12:15:30
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -73,17 +73,23 @@
 (^|\.)\w*adsmogo\w*\.\w*$
 (^|\.)\w*adsrvmedia\w*\.\w*$
 (^|\.)\w*adsserving\w*\.\w*$
+(^|\.)\w*adsystem\w*\.\w*$
 (^|\.)\w*adwords\w*\.\w*$
 (^|\.)\w*analysis\w*\.\w*$
 (^|\.)\w*analytics\w*\.\w*$
 (^|\.)\w*applovin\w*\.\w*$
+(^|\.)\w*appsflyer\w*\.\w*$
+(^|\.)\w*domob\w*\.\w*$
 (^|\.)\w*duomeng\w*\.\w*$
 (^|\.)\w*dwtrack\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
 (^|\.)\w*monitor\w*\.\w*$
+(^|\.)\w*omgmta\w*\.\w*$
+(^|\.)\w*omniture\w*\.\w*$
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
+(^|\.)\w*pingfore\w*\.\w*$
 (^|\.)\w*socdm\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
@@ -1529,7 +1535,8 @@
 
 #**********************************************************************
 [proxy_list]
-(^|\.).sankakucomplex\.com
+#(^|\.)raw\.githubusercontent\.com$
+#(^|\.).sankakucomplex\.com
 (^|\.)bbbb222.*$
 (^|\.)aaaa333.*$
 (^|\.)1024x2.*$
@@ -1537,7 +1544,7 @@
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
-(^|\.)cccat\.cc$
+(^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
@@ -1555,7 +1562,6 @@
 (^|\.)ec2-54-174-178-70\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
-(^|\.)raw\.githubusercontent\.com$
 
 #GFWList IP start
 85.17.73.31
@@ -2309,8 +2315,7 @@
 (^|\.)cbc\.ca$
 (^|\.)cbsnews\.com$
 (^|\.)cbtc\.org\.hk$
-(^|\.)cccat\.cc$
-(^|\.)cccat\.co$
+(^|\.)cccat\.io$
 (^|\.)ccdtr\.org$
 (^|\.)cchere\.com$
 (^|\.)ccim\.org$
@@ -7121,10 +7126,6 @@
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
-# Epicgames
-(^|\.)\w*epicgames\w*\.\w*$
-(^|\.)helpshift\.com$
-
 # Google
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
@@ -7264,3 +7265,5 @@
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+#华文电视
+(^|\.)ocnttv\.com$
