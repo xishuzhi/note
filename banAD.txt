@@ -1551,7 +1551,7 @@
 (^|\.)dmm\.co\.jp$
 (^|\.)githubusercontent\.com$
 (^|\.)gvt\w\.com$
-(^|\.)microsoft\.com$
+#(^|\.)microsoft\.com$
 (^|\.)ping\.pe$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
