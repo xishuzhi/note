@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2020年05月07日12:15:33
+# 2020年02月18日12:15:18
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -159,8 +159,7 @@
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
-(^|\.)adash-c\.ut\.taobao\.com$
-(^|\.)adashxgc\.ut\.taobao\.com$
+(^|\.)(adash-c|adashbc|adashxgc)\.ut\.taobao\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
 (^|\.)click\.mz\.simba\.taobao\.com$
@@ -422,7 +421,7 @@
 (^|\.)ads\.union\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
-(^|\.|/)ccc-x\.jd\.com
+#(^|\.|/)ccc-x\.jd\.com
 
 # Kugou
 (^|\.)(bssdl|bssdlbig|d|downmobile|fanxing|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
@@ -1558,6 +1557,43 @@
 223.6.255.99/32
 
 #**********************************************************************
+[bypass_list]
+# 本地/局域网地址
+^(.*\.)?local$
+^(.*\.)?localhost$
+^(.*\.)?ip6-localhost$
+^(.*\.)?ip6-loopback$
+
+# Router managed 路由器管理域名
+(^|\.)hiwifi\.com$
+(^|\.)leike\.cc$
+(^|\.)miwifi\.com$
+(^|\.)p\.to$
+(^|\.)peiluyou\.com$
+(^|\.)phicomm\.me$
+(^|\.)routerlogin\.com$
+(^|\.)tendawifi\.com$
+(^|\.)zte\.home$
+
+::ffff:0:0:0:0/1
+::ffff:128:0:0:0/1
+0.0.0.0/8
+10.0.0.0/8
+100.64.0.0/10
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.0.0.0/29
+192.0.2.0/24
+192.88.99.0/24
+192.168.0.0/16
+198.18.0.0/15
+198.51.100.0/24
+203.0.113.0/24
+224.0.0.0/3
+
+#**********************************************************************
+
 [proxy_list]
 #(^|\.)raw\.githubusercontent\.com$
 #(^|\.).sankakucomplex\.com
@@ -1573,15 +1609,24 @@
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
+(^|\.)doub\.io$
+(^|\.)gameloft\.com$
 (^|\.)githubusercontent\.com$
 (^|\.)gvt\w\.com$
+(^|\.)inoreader\.com$
+(^|\.)ip138\.com$
 (^|\.)microsoft\.com$
 (^|\.)ping\.pe$
+(^|\.)quora\.com$
+(^|\.)reddit\.com$
 (^|\.)s3\.amazonaws\.com$
+(^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
 (^|\.)tvb\.com$
 (^|\.)twdvd\.com$
+(^|\.)unsplash\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)yunpanjingling\.com$
 (^|\.)ec2-54-210-142-85\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-174-24-124\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-174-178-70\.computer-1\.amazonaws\.com$
@@ -6804,6 +6849,7 @@
 (^|\.)wikileaks\.pl$
 (^|\.)wikilivres\.info$
 (^|\.)wikimapia\.org$
+(^|\.)wikimedia\.org$
 (^|\.)wikinews\.org$
 (^|\.)wikipedia\.org$
 (^|\.)wikisource\.org$
@@ -7201,7 +7247,94 @@
 203.174.66.64/26
 203.174.77.0/24
 
-# MytvSUPER & Netflix
+
+# Microsoft Onenote
+(^|\.)1drv\.com$
+(^|\.)aadrm\.com$
+(^|\.)acompli\.com$
+(^|\.)acompli\.net$
+(^|\.)aka\.ms$
+(^|\.)akadns\.net$
+(^|\.)aspnetcdn\.com$
+(^|\.)assets-yammer\.com$
+(^|\.)azure\.com$
+(^|\.)azure\.net$
+(^|\.)azureedge\.net$
+(^|\.)azurerms\.com$
+(^|\.)bing\.com$
+(^|\.)cloudapp\.net$
+(^|\.)cloudappsecurity\.com$
+(^|\.)edgesuite\.net$
+(^|\.)getmicrosoftkey\.com$
+(^|\.)gfx\.ms$
+(^|\.)hotmail\.com$
+(^|\.)live\.com$
+(^|\.)live\.net$
+(^|\.)lync\.com$
+(^|\.)microsoft\.com$
+(^|\.)microsoftazuread-sso\.com$
+(^|\.)microsoftonline-p\.com$
+(^|\.)microsoftonline-p\.net$
+(^|\.)microsoftonline\.com$
+(^|\.)microsoftstream\.com$
+(^|\.)msappproxy\.net$
+(^|\.)msauth\.net$
+(^|\.)msauthimages\.net$
+(^|\.)msecnd\.net$
+(^|\.)msedge\.net$
+(^|\.)msft\.net$
+(^|\.)msftauth\.net$
+(^|\.)msftauthimages\.net$
+(^|\.)msftidentity\.com$
+(^|\.)msidentity\.com$
+(^|\.)msn\.com$
+(^|\.)msocdn\.com$
+(^|\.)msocsp\.com$
+(^|\.)mstea\.ms$
+(^|\.)o365weve\.com$
+(^|\.)oaspapps\.com$
+(^|\.)office\.com$
+(^|\.)office\.net$
+(^|\.)office365\.com$
+(^|\.)officecdn-microsoft-com\.akamaized\.net$
+(^|\.)officeppe\.net$
+(^|\.)omniroot\.com$
+(^|\.)onedrive\.com$
+(^|\.)onenote\.com$
+(^|\.)onenote\.net$
+(^|\.)onestore\.ms$
+(^|\.)onmicrosoft\.com$
+(^|\.)outlook\.com$
+(^|\.)outlookmobile\.com$
+(^|\.)phonefactor\.net$
+(^|\.)public-trust\.com$
+(^|\.)s-microsoft\.com$
+(^|\.)sfbassets\.com$
+(^|\.)sfx\.ms$
+(^|\.)sharepoint\.com$
+(^|\.)sharepointonline\.com$
+(^|\.)skype\.com$
+(^|\.)skypeassets\.com$
+(^|\.)skypeforbusiness\.com$
+(^|\.)staffhub\.ms$
+(^|\.)svc\.ms$
+(^|\.)sway-cdn\.com$
+(^|\.)sway-extensions\.com$
+(^|\.)sway\.com$
+(^|\.)trafficmanager\.net$
+(^|\.)uservoice\.com$
+(^|\.)virtualearth\.net$
+(^|\.)visualstudio\.com$
+(^|\.)windows-ppe\.net$
+(^|\.)windows\.com$
+(^|\.)windows\.net$
+(^|\.)windowsazure\.com$
+(^|\.)windowsupdate\.com$
+(^|\.)wunderlist\.com$
+(^|\.)yammer\.com$
+(^|\.)yammerusercontent\.com$
+
+# Netflix & MytvSUPER
 (^|\.)\w*nowtv100\w*\.\w*$
 (^|\.)\w*rthklive\w*\.\w*$
 (^|\.)mytvsuper\.com$
@@ -7227,11 +7360,6 @@
 198.45.48.0/20
 207.45.72.0/22
 208.75.76.0/24
-
-# Onenote
-(^|\.)live\.net$
-(^|\.)live\.com$
-(^|\.)onenote\.com$
 
 # Potato Chat
 (^|\.)potato\.im$
@@ -7290,5 +7418,6 @@
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
 #华文电视
 (^|\.)ocnttv\.com$
