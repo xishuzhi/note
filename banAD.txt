@@ -1969,7 +1969,7 @@
 (^|\.)aiweiwei\.com$
 (^|\.)ai-wen\.net$
 (^|\.)akademiye\.org$
-(^|\.)akamaihd\.net$
+#OneDrive# (^|\.)akamaihd\.net$
 (^|\.)akiba-online\.com$
 (^|\.)akiba-web\.com$
 (^|\.)akow\.org$
@@ -7671,13 +7671,13 @@
 (^|\.)s-microsoft\.com$
 (^|\.)sfbassets\.com$
 (^|\.)sfx\.ms$
-(^|\.)sharepoint\.com$
+#OneDrive# (^|\.)sharepoint\.com$
 (^|\.)sharepointonline\.com$
 (^|\.)skype\.com$
 (^|\.)skypeassets\.com$
 (^|\.)skypeforbusiness\.com$
 (^|\.)staffhub\.ms$
-(^|\.)svc\.ms$
+#OneDrive# (^|\.)svc\.ms$
 (^|\.)sway-cdn\.com$
 (^|\.)sway-extensions\.com$
 (^|\.)sway\.com$
