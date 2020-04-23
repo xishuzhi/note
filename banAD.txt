@@ -1,7 +1,9 @@
 #**********************************************************************
 # 00.00
-# 2020年03月26日13:14:00
+# 2020年04月23日17:09:00
+# 数据来源时间：2020年4月18日 20:28:30
 # 转载需要注明版权和来源
+# 全部规则来自GFWList 没有白名单
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
@@ -15,22 +17,16 @@
 
 [bypass_all]
 ### 默认直连 自己可以自定义
-### [outbound_block_list] 禁止访问列表 在26行
-### [bypass_list] 直连列表 禁止访问列表 在723多行
-### [proxy_list] 代理列表 在1205多行
+### [outbound_block_list] 禁止访问列表
+### [bypass_list] 直连列表 禁止访问列表
+### [proxy_list] 代理列表
 
 #**********************************************************************
 [outbound_block_list]
 # 禁止访问列表
 (^|\.)gtimg\.cn$
 (^|\.)moonreader\.cn/downloader/ver\.txt$
-#(^|\.)\w*ad\.xiaomi\w*\..*$
-(^|\.)ad\.xiaomi.*$
-#(^|\.)ad\.xiaomi\.com*$
-#腾讯广告投放
-(^|\.)gdt\.qq.*$
-#未知广告
-(^|\.)ugdtimg.*$
+(^|\.|/)*\.moonreader.*ver.*$
 #未知插件
 (^|\.|/)release/plugin.*jar$
 #360应用下载
@@ -59,7 +55,7 @@
 #会屏蔽西瓜视频(^|\.|/)*\.snssdk.*$
 (^|\.|/)*\.kunluncan.*$
 (^|\.|/)*\.alikunlun.*$
-(^|\.|/)*\.moonreader.*ver.*$
+
 #深圳墨鱼传媒
 (^|\.|/)*\.moyumedia.*$
 
@@ -106,7 +102,7 @@
 (^|\.)(analytics|img1|img2|mimg|push)\.126\.net$
 (^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|rlogs|union|ydpushserver)\.youdao\.com$
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.com$
-(^|\.)(iadmat|haitaoad|iadmatvideo)\.nosdn\.127\.net$
+(^|\.)(haitaoad|iadmatvideo)\.nosdn\.127\.net$
 (^|\.)ir\.mail\.126\.com$
 (^|\.)ir\.mail\.yeah\.net$
 (^|\.)oimagea2\.ydstatic\.com$
@@ -456,7 +452,6 @@
 (^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
 (^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
 (^|\.)(r|security)\.browser\.miui\.com$
-(^|\.)adv\.sec\.miui\.com$
 (^|\.)tracking\.miui\.com$
 (^|\.)union\.mi\.com$
 
@@ -539,7 +534,7 @@
 (^|\.)u\.ucfly\.com$
 
 # Weifeng
-(^|\.)aoodoo\.feng\.com$
+(^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)fengbuy\.com$
 (^|\.)push\.feng\.com$
 (^|\.)we\.tm$
@@ -607,7 +602,6 @@
 (^|\.)dotcounter\.douyutv\.com$
 
 # Fenghuang 凤凰TV
-(^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)(game|stadig)\.ifeng\.com$
 (^|\.)api\.newad\.ifeng\.com$
 (^|\.)exp\.3g\.ifeng\.com$
@@ -680,28 +674,19 @@
 # QQ Live
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
+(^|\.)btrace\.video\.qq\.com$
 (^|\.)c\.l\.qq\.com$
 (^|\.)dp3\.qq\.com$
-(^|\.)livep\.l\.aiseet\.atianqi\.com$
 (^|\.)livep\.l\.qq\.com$
-(^|\.)lives\.l\.aiseet\.atianqi\.com$
 (^|\.)lives\.l\.qq\.com$
 (^|\.)livew\.l\.qq\.com$
 (^|\.)mcgi\.v\.qq\.com$
 (^|\.)mdevstat\.qqlive\.qq\.com$
-(^|\.)monitor-uu\.play\.aiseet\.atianqi\.com$
-(^|\.)news-l\.play\.aiseet\.atianqi\.com$
 (^|\.)omgmta1\.qq\.com$
-(^|\.)otheve\.play\.aiseet\.atianqi\.com$
-(^|\.)othstr\.play\.aiseet\.atianqi\.com$
-(^|\.)p-l\.play\.aiseet\.atianqi\.com$
 (^|\.)p\.l\.qq\.com$
-(^|\.)sdkconfig\.play\.aiseet\.atianqi\.com$
-(^|\.)t-l\.play\.aiseet\.atianqi\.com$
+(^|\.)rcgi\.video\.qq\.com$
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
-#(^|\.)(variety|varietyts|vmindhls|vlive|qqvideo)\.tc\.qq\.com$
-(^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
 (^|\.)(actives|dmapp|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
@@ -797,7 +782,6 @@
 (^|\.)ad\.unimhk\.com$
 (^|\.)adhome\.1fangchan\.com$
 (^|\.)adm\.easou\.com$
-(^|\.)adm\d\.autoimg\.cn$
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
@@ -915,7 +899,6 @@
 (^|\.)agrant\.cn$
 (^|\.)agrantsem\.com$
 (^|\.)aihaoduo\.cn$
-(^|\.)airpush\.com$
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
@@ -1059,7 +1042,6 @@
 (^|\.)keyrun\.cn$
 (^|\.)kmd365\.com$
 (^|\.)krux\.net$
-(^|\.)leadboltads\.net$
 (^|\.)lnk0\.com$
 (^|\.)lnk8\.cn$
 (^|\.)localytics\.com$
@@ -1273,7 +1255,6 @@
 (^|\.)airpush\.com$
 (^|\.)am15\.net$
 (^|\.)amobee\.com$
-(^|\.)appadhoc\.com$
 (^|\.)appier\.net$
 (^|\.)applift\.com$
 (^|\.)apsalar\.com$
@@ -1309,7 +1290,6 @@
 (^|\.)flurry\.com$
 (^|\.)gosquared\.com$
 (^|\.)gtags\.net$
-(^|\.)guomob\.com$
 (^|\.)heyzap\.com$
 (^|\.)histats\.com$
 (^|\.)hitslink\.com$
@@ -1637,7 +1617,6 @@
 (^|\.)toolbarqueries\.google\.com$
 (^|\.)tools\.google\.com$
 (^|\.)tools\.l\.google\.com$
-(^|\.)translate\.googleapis\.com$
 (^|\.)update\.googleapis\.com$
 (^|\.)www-googletagmanager\.l\.google\.com$
 (^|\.)www\.gstatic\.com$
@@ -1653,6 +1632,7 @@
 (^|\.)routerlogin\.com$
 (^|\.)tendawifi\.com$
 (^|\.)zte\.home$
+(^|\.)router\.asus\.com$
 
 ::ffff:0:0:0:0/1
 ::ffff:128:0:0:0/1
@@ -1663,7 +1643,6 @@
 192.168.0.0/16
 
 #**********************************************************************
-
 [proxy_list]
 
 #(^|\.)raw\.githubusercontent\.com$
@@ -1780,7 +1759,6 @@
 220.132.16.173
 
 #GFWList
-(^|\.)(.*)2\.bahamut\.com\.tw$
 (^|\.)030buy\.com$
 (^|\.)0rz\.tw$
 (^|\.)1000giri\.net$
@@ -1969,7 +1947,8 @@
 (^|\.)aiweiwei\.com$
 (^|\.)ai-wen\.net$
 (^|\.)akademiye\.org$
-#OneDrive# (^|\.)akamaihd\.net$
+#OneDrive# 
+(^|\.)akamaihd\.net$
 (^|\.)akiba-online\.com$
 (^|\.)akiba-web\.com$
 (^|\.)akow\.org$
@@ -2994,7 +2973,7 @@
 (^|\.)ddns\.mobi$
 (^|\.)ddns\.ms$
 (^|\.)ddns\.name$
-#(^|\.)ddns\.net$
+#动态域名#(^|\.)ddns\.net$
 (^|\.)ddns\.us$
 (^|\.)deaftone\.com$
 (^|\.)debug\.com$
@@ -4150,7 +4129,6 @@
 (^|\.)hi-on\.org\.tw$
 (^|\.)hitbtc\.com$
 (^|\.)hitomi\.la$
-(^|\.)hiwifi\.com$
 (^|\.)hizb-ut-tahrir\.info$
 (^|\.)hizb-ut-tahrir\.org$
 (^|\.)hizbuttahrir\.org$
@@ -4187,7 +4165,6 @@
 (^|\.)hkgreenradio\.org$
 (^|\.)hk\.hao123img\.com$
 (^|\.)hkheadline\.com$
-(^|\.)hkheadline\.comblog$
 (^|\.)hkhkhk\.com$
 (^|\.)hkhrc\.org\.hk$
 (^|\.)hkhrm\.org\.hk$
@@ -7594,19 +7571,14 @@
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 (^|\.)nhncorp\.jp$
-103.2.28.0/22
-119.235.224.0/21
-119.235.232.0/23
+103.2.28.0/24
+103.2.30.0/23
+119.235.224.0/24
+119.235.232.0/24
 119.235.235.0/24
 119.235.236.0/23
-125.6.146.0/24
-125.6.149.0/24
-125.6.190.0/24
-125.209.208.0/20
-203.104.103.0/24
-203.104.128.0/20
-203.174.66.64/26
-203.174.77.0/24
+147.92.128.0/17
+203.104.128.0/19
 
 # Microsoft
 (^|\.)1drv\.com$
@@ -7671,13 +7643,15 @@
 (^|\.)s-microsoft\.com$
 (^|\.)sfbassets\.com$
 (^|\.)sfx\.ms$
-#OneDrive# (^|\.)sharepoint\.com$
+#OneDrive# 
+(^|\.)sharepoint\.com$
 (^|\.)sharepointonline\.com$
 (^|\.)skype\.com$
 (^|\.)skypeassets\.com$
 (^|\.)skypeforbusiness\.com$
 (^|\.)staffhub\.ms$
-#OneDrive# (^|\.)svc\.ms$
+#OneDrive# 
+(^|\.)svc\.ms$
 (^|\.)sway-cdn\.com$
 (^|\.)sway-extensions\.com$
 (^|\.)sway\.com$
@@ -7722,9 +7696,44 @@
 207.45.72.0/22
 208.75.76.0/22
 
+# OneDrive
+(^|\.)\w*1drv\w*\.\w*$
+(^|\.)\w*onedrive\w*\.\w*$
+(^|\.)\w*skydrive\w*\.\w*$
+(^|\.)livefilestore\.com$
+(^|\.)oneclient\.sfx\.ms$
+(^|\.)onedrive\.com$
+(^|\.)onedrive\.live\.com$
+(^|\.)photos\.live\.com$
+(^|\.)skydrive\.wns\.windows\.com$
+(^|\.)spoprod-a\.akamaihd\.net$
+(^|\.)storage\.live.com$
+(^|\.)storage\.msn.com$
+
 # Pixiv
 (^|\.)pixiv\.net$
 (^|\.)pximg\.net$
+
+# Porn
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)8teenxxx\.com$
+(^|\.)ahcdn\.com$
+(^|\.)bcvcdn\.com$
+(^|\.)bongacams\.com$
+(^|\.)chaturbate\.com$
+(^|\.)dditscdn\.com$
+(^|\.)livejasmin\.com$
+(^|\.)rdtcdn\.com$
+(^|\.)redtube\.com$
+(^|\.)sb-cd\.com$
+(^|\.)spankbang\.com$
+(^|\.)t66y\.com$
+(^|\.)xhamster\.com$
+(^|\.)xnxx-cdn\.com$
+(^|\.)xnxx\.com$
+(^|\.)xvideos-cdn\.com$
+(^|\.)xvideos\.com$
+(^|\.)ypncdn\.com$
 
 # ResiloSync
 (^|\.)config\.getsync\.com$
