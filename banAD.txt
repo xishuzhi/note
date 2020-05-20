@@ -1,7 +1,7 @@
 #**********************************************************************
 # 00.00
-# 2020年04月23日17:09:00
-# 数据来源时间：2020年4月18日 20:28:30
+# 2020年05月20日17:09:59
+# 数据来源时间：2020年5月16日22:01:05
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -89,7 +89,6 @@
 (^|\.)\w*socdm\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
-(^|\.)\w*uedas\w*\.\w*$
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
@@ -200,7 +199,7 @@
 # Baidu
 (^|\.)(a|adm|adscdn|afd|als|anquan|appc|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.(com|cn)$
 (^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.(com|cn)$
-(^|\.)(pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.(com|cn)$
+(^|\.)(pups|rj|rp|spcode|tk|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.(com|cn)$
 (^|\.)ad\.duapps\.com$
 (^|\.)ad\.player\.baidu\.com$
 (^|\.)adx\.xiaodutv\.com$
@@ -475,15 +474,6 @@
 (^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
-#(^|\.)(adslvfile|adsfile|play|pinghot)\.qq\.com$
-#(^|\.)tj\.video\.qq\.com$
-#(^|\.)vv\.video\.qq\.com$
-#(^|\.)livem\.l\.qq\.com$
-#(^|\.)rcgi\.video\.qq\.com$
-#(^|\.)aid\.video\.qq\.com$
-#(^|\.)vhotlxp\.video\.qq\.com$
-#(^|\.)qqbm\.zhuiying\.net$
-#(^|\.)qqbmad\.mycode8\.net$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
@@ -903,7 +893,6 @@
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
 (^|\.)amazon-adsystem\.com$
-(^|\.)amplitude\.com$
 (^|\.)analysys\.cn$
 (^|\.)angsrvr\.com$
 (^|\.)anquan\.org$
@@ -991,6 +980,7 @@
 (^|\.)feixin2\.com$
 (^|\.)flashtalking\.com$
 (^|\.)fraudmetrix\.cn$
+(^|\.)g1\.tagtic\.cn$
 (^|\.)gentags\.net$
 (^|\.)gepush\.com$
 (^|\.)getui\.com$
@@ -1137,7 +1127,6 @@
 (^|\.)sycbbs\.com$
 (^|\.)synacast\.com$
 (^|\.)sysdig\.com$
-(^|\.)tagtic\.cn$
 (^|\.)talkingdata\.com$
 (^|\.)talkingdata\.net$
 (^|\.)tansuotv\.com$
@@ -1269,6 +1258,7 @@
 (^|\.)brucelead\.com$
 (^|\.)bttrack\.com$
 (^|\.)casalemedia\.com$
+(^|\.)celtra\.com$
 (^|\.)channeladvisor\.com$
 (^|\.)connexity\.net$
 (^|\.)criteo\.com$
@@ -1298,6 +1288,7 @@
 (^|\.)i-mobile\.co\.jp$
 (^|\.)imrworldwide\.com$
 (^|\.)inmobi\.com$
+(^|\.)inner-active\.mobi$
 (^|\.)intentiq\.com$
 (^|\.)inter1ads\.com$
 (^|\.)ipredictive\.com$
@@ -1326,6 +1317,7 @@
 (^|\.)mobfox\.com$
 (^|\.)mobileadtrading\.com$
 (^|\.)mobilityware\.com$
+(^|\.)mojiva\.com$
 (^|\.)mookie1\.com$
 (^|\.)msads\.net$
 (^|\.)mydas\.mobi$
@@ -1677,6 +1669,7 @@
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
 
 # 国外域名
+^.*\.eu$
 ^.*\.hk$
 ^.*\.jp$
 ^.*\.kr$
@@ -7486,6 +7479,27 @@
 (^|\.)\w*uk-live\w*\.\w*$
 (^|\.)bbc\.co$
 (^|\.)bbc\.com$
+
+# Developer 开发者常用国外网站、镜像和论坛
+(^|\.)apache\.org$
+(^|\.)docker\.com$
+(^|\.)elastic\.co$
+(^|\.)elastic\.com$
+(^|\.)gcr\.io$
+(^|\.)gitlab\.com$
+(^|\.)gitlab\.io$
+(^|\.)jitpack\.io$
+(^|\.)maven\.org$
+(^|\.)medium\.com$
+(^|\.)mvnrepository\.com$
+(^|\.)quay\.io$
+(^|\.)reddit\.com$
+(^|\.)redhat\.com$
+(^|\.)sonatype\.org$
+(^|\.)sourcegraph\.com$
+(^|\.)spring\.io$
+(^|\.)spring\.net$
+(^|\.)stackoverflow\.com$
 
 # Discord
 (^|\.)discord\.gg$
