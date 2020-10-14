@@ -1,7 +1,7 @@
 #**********************************************************************
 # 00.00
-# 2020年09月17日10:49:37
-# 数据来源时间：2020年9月7日23:29:32
+# 2020年10月14日13:45:15
+# 数据来源时间：2020年10月3日11:41:57
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -203,7 +203,6 @@
 (^|\.)ae\.bdstatic\.com$
 (^|\.)antivirus\.baidu\.com$
 (^|\.)api\.mobula\.sdk\.duapps\.com$
-(^|\.)ashifen\.com$
 (^|\.)baichuan\.baidu\.com$
 (^|\.)baidu9635\.com$
 (^|\.)baidustatic\.com$
@@ -288,7 +287,6 @@
 (^|\.)sestat\.baidu\.com$
 (^|\.)shadu\.baidu\.com$
 (^|\.)share\.baidu\.com$
-(^|\.)shifen\.com$
 (^|\.)snippet\.pos\.baidu\.com$
 (^|\.)sobar\.baidu\.com$
 (^|\.)sobartop\.baidu\.com$
@@ -1632,6 +1630,8 @@
 (^|\.)archiveofourown\.org$
 
 # MyList
+(^|\.)1password\.com$
+(^|\.)adguard\.org$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.io$
