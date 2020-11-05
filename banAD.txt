@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2020年10月23日10:23:49
+# 2020年11月05日11:00:21
 # 数据来源时间：2020年10月3日11:41:57
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
@@ -740,7 +740,7 @@
 (^|\.)(1|2)\.win7china\.com$
 (^|\.)(801|803|806|808|bdj|dol|click)\.(tianya|tianyaui)\.cn$
 (^|\.)(92x|its-dori)\.tumblr\.com$
-(^|\.)(adm|eq|fund|ozone|stat|vaserviece)\.10jqka\.com\.cn$
+(^|\.)(adm|eq|ozone|stat|vaserviece)\.10jqka\.com\.cn$
 (^|\.)(ad|adadmin|ads)\.house365\.com$
 (^|\.)(ad|ads|counter)\.csdn\.net$
 (^|\.)(ad|analytics|click|ganjituiguang|sta|tralog)\.ganji\.com$
