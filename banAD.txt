@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2020年12月02日16:50:35
+# 2020年12月08日16:35:10
 # 数据来源时间：2020年10月3日11:41:57
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
@@ -1618,13 +1618,15 @@
 [proxy_list]
 
 #(^|\.)raw\.githubusercontent\.com$
-#(^|\.).sankakucomplex\.com
+(^|\.).sankakucomplex\.com
 (^|\.)bbbb222.*$
 (^|\.)aaaa333.*$
 (^|\.)1024x2.*$
 (^|\.)a2zapk\.com$
 (^|\.)archiveofourown\.org$
 (^|\.)powerampapp\.com$
+(^|\.)exhentai\.org$
+(^|\.)hath\.network$
 
 # MyList
 (^|\.)1password\.com$
