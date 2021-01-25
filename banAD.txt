@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2021年01月04日10:47:31
+# 2021年01月25日17:29:55
 # 数据来源时间：2020年12月28日20:29:54
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
@@ -1564,19 +1564,6 @@
 (^|\.)googletagservices\.com$
 (^|\.)gtm\.oasisfeng\.com$
 (^|\.)imasdk\.googleapis\.com$
-(^|\.)kh\.google\.com$
-(^|\.)khm\.google\.com$
-(^|\.)khm\.googleapis\.com$
-(^|\.)khm0\.google\.com$
-(^|\.)khm0\.googleapis\.com$
-(^|\.)khm1\.google\.com$
-(^|\.)khm1\.googleapis\.com$
-(^|\.)khm2\.google\.com$
-(^|\.)khm2\.googleapis\.com$
-(^|\.)khm3\.google\.com$
-(^|\.)khm3\.googleapis\.com$
-(^|\.)khmdb\.google\.com$
-(^|\.)khmdb\.googleapis\.com$
 (^|\.)mtalk\.google\.com$
 (^|\.)ocsp\.pki\.goog$
 (^|\.)recaptcha\.net$
@@ -7364,6 +7351,26 @@
 (^|\.)ytimg\.com$
 74.125.0.0/16
 173.194.0.0/16
+
+# Google中国服务IP列表 services.googleapis.cn
+120.232.181.162
+120.241.147.226
+120.253.253.226
+120.253.255.162
+120.253.255.34
+120.253.255.98
+180.163.150.162
+180.163.150.34
+180.163.151.162
+180.163.151.34
+203.208.39.0/24
+203.208.40.0/24
+203.208.41.0/24
+203.208.43.0/24
+203.208.50.0/24
+220.181.174.162
+220.181.174.226
+220.181.174.34
 
 # Instagram
 (^|\.)cdninstagram\.com$
