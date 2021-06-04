@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2021年04月30日16:38:55
+# 2021年06月04日09:13:40
 # 数据来源时间：2020年12月28日20:29:54
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
@@ -398,7 +398,6 @@
 (^|\.)ads\.union\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
-#(^|\.|/)ccc-x\.jd\.com
 
 # Kugou
 (^|\.)(bssdl|bssdlbig|d|downmobile|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
@@ -461,11 +460,10 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-#(^|\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
-(^|\.)(act|adsfile|bugly|buluo|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)(wxsnsdy|wxsnsdythumb)\.wxs\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
-#(^|\.)oth\.eve\.mdt\.qq\.com$
+(^|\.)oth\.eve\.mdt\.qq\.com$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
@@ -7295,11 +7293,6 @@
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
-
-# Dubox
-(^|\.)dubox\.com$
-(^|\.)duboxcdn\.com$
-
 # Facebook
 (^|\.)facebook\.com$
 (^|\.)fb\.com$
@@ -7615,6 +7608,10 @@
 2001:67c:4e8::/48
 2001:b28:f23d::/48
 2001:b28:f23f::/48
+
+# TeraBox
+(^|\.)terabox\.com$
+(^|\.)teraboxcdn\.com$
 
 # Twitch
 (^|\.)twitch\.tv$
