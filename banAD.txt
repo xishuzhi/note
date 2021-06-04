@@ -465,7 +465,7 @@
 (^|\.)(act|adsfile|bugly|buluo|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)(wxsnsdy|wxsnsdythumb)\.wxs\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
-(^|\.)oth\.eve\.mdt\.qq\.com$
+#(^|\.)oth\.eve\.mdt\.qq\.com$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
