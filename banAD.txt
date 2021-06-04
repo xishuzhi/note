@@ -24,7 +24,7 @@
 #**********************************************************************
 [outbound_block_list]
 # 禁止访问列表
-(^|\.)gtimg\.cn$
+#(^|\.)gtimg\.cn$
 (^|\.)moonreader\.cn/downloader/ver\.txt$
 (^|\.|/)*\.moonreader.*ver.*$
 #未知插件
