@@ -1,6 +1,6 @@
 #**********************************************************************
 # 00.00
-# 2021年06月04日09:13:40
+# 2021年09月18日12:08:25
 # 数据来源时间：2020年12月28日20:29:54
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
@@ -12,6 +12,7 @@
 #
 # 更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
 # 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+# 广告过滤 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 #
 #**********************************************************************
 
@@ -85,13 +86,9 @@
 (^|\.)\w*pingfore\w*\.\w*$
 (^|\.)\w*socdm\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
-(^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
-(^|\.)ad\d{0,3}\..*$
-(^|\.)ads\d{0,3}\..*$
-(^|\.)tracking\..*$
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
@@ -901,6 +898,7 @@
 (^|\.)bloggerads\.net$
 (^|\.)branch\.io$
 (^|\.)bsdev\.cn$
+(^|\.)bshare\.cn$
 (^|\.)btyou\.com$
 (^|\.)bugtags\.com$
 (^|\.)buysellads\.com$
@@ -1328,9 +1326,11 @@
 (^|\.)steelhousemedia\.com$
 (^|\.)stickyadstv\.com$
 (^|\.)supersonic\.com$
+(^|\.)taboola\.com$
 (^|\.)tapjoy\.com$
 (^|\.)tapjoyads\.com$
 (^|\.)trafficjunky\.com$
+(^|\.)trafficjunky\.net$
 (^|\.)tribalfusion\.com$
 (^|\.)turn\.com$
 (^|\.)uberads\.com$
@@ -1357,6 +1357,11 @@
 (^|\.)wep016\.top
 (^|\.)win-stock\.com\.cn$
 (^|\.)zantainet\.com$
+(^|\.)26zsd\.cn$
+(^|\.)vcbn65\.xyz$
+(^|\.)wep016\.top$
+(^|\.)dh54wf\.xyz$
+(^|\.)g2q3e\.cn$
 
 ### 运营商广告
 (^|\.)\w\w(\w|)dnserror\d(\d|)\.wo\.com\.cn
